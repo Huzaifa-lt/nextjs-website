@@ -12,10 +12,15 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       screens: {
         "2xl": "1400px",
       },
+      
+    },
+    fontFamily : {
+       "Anton" : ["Anton" ,"sans-serif"],
+       'body': ["Barlow Condensed" , "sans-serif"],
     },
     extend: {
       colors: {
