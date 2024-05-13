@@ -2,21 +2,22 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <section className="mb-10 background-img py-[60px] px-4 ">
-      <div className="container md:mx-auto md:flex">
+    <section className="mb-10 background-img py-[60px] px-4 md:py-24 md:px-[30px]  ">
+      <div className="container md:mx-auto lg:flex justify-between items-center">
         <img
           src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65372e589fb1ae50f880778f_Mask%20group%20(2).png"
           loading="lazy"
+          className=" max-w-[50%]"
           data-w-id="7e3faa96-da47-390e-c796-50a8a5359d08"
           alt=""
         />
 
-        <div>
-          <button className="text-[#59b1f3] text-center capitalize px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] ">
+        <div className=" md:max-w-[48%] flex flex-col justify-items-start items-start md:gap-9 " >
+          <span className="text-[#59b1f3] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%] ">
             Experience
-          </button>
+          </span>
 
-          <p className=" mt-16 mb-10 text-lg leading-[140%]">
+          <p className=" mt-16 mb-10 para-typography md:text-2xl md:leading-[140%] md:mt-0 md:mb-6 ">
             With more than a decade at VC-backed startups + scale ups I’ve
             launched and sold new products and services across Australia, APAC
             and the US. I’ve built and run teams through direct, JVs or

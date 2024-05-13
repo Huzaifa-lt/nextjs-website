@@ -7,44 +7,47 @@ const Footer = () => {
     <section className="section footer py-[60px] pb-20 md:py-[132px] ">
       <div className=" container flex flex-col gap-8 items-stretch justify-between relative z-10 md:mx-auto">
         <div>
-          <h5 className=" text-[64px] font-normal leading-[110%] text-center font-Anton text-white capitalize md:text-[240px] ">
-            zachary<span className="king md:text-[240px]">king</span>
+          <div className=" flex-shrink-0 basis-auto flex items-center justify-center ">
+             <h5 className=" text-[64px] font-normal leading-[110%]  font-Anton text-white uppercase sm:text-[12vh] md:text-[18vh] lg:text-[25vh] 2xl:text-[240px] ">
+            Quantum<span className="king text-[64px] sm:text-[12vh] md:text-[18vh] lg:text-[25vh] 2xl:text-[240px] ">Edge</span>
           </h5>
+          </div>
+         
           <div className="flex flex-col gap-4 items-center md:gap-8">
             <div className=" mt-9 flex flex-wrap  gap-2  md:gap-4">
               <a
                 href="/"
-                className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,0.08)] rounded-[8px] self-center"
+                className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,0.08)] rounded-[8px] self-center md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
               >
                 Home
               </a>
               <a
                 href="/"
-                className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px]"
+                className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
               >
                 about
               </a>
               <a
                 href="/"
-                className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px]"
+                className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
               >
                 Services
               </a>
               <a
                 href="/"
-                className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px]"
+                className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
               >
                 Resources
               </a>
               <a
                 href="/"
                 className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] 
-            rounded-[8px]"
+            rounded-[8px] transition ease-in-out md:py-3 md:px-6 hover:bg-[#59b1f3] hover:border-[#59b1f3]"
               >
                 Contact
               </a>
             </div>
-            <p>I've sold things you wouldn't believe...</p>
+            <p className=" text-xl leading-[140%]">I've sold things you wouldn't believe...</p>
             <div className="flex items-center gap-2 md:gap-4">
               <Link href="">
                 <Image

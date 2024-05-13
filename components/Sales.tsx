@@ -1,26 +1,28 @@
-import React from 'react'
+import React from "react";
 
 const Sales = () => {
   return (
     <section className="mb-10 background-img py-[60px] px-4 ">
-    <div className="container md:mx-auto md:flex">
-        <div>
-          <button className="text-[#59b1f3] capitalize px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] ">
-      Fractional Sales Leader
-      </button>
-      <p className=" mt-8 mb-16 text-lg leading-[140%] ">
-        I am a 20-year technology B2B sales veteran (god that makes me feel
-        old), founder, builder, nocoder and automation fan, which you can
-        access as a Fractional VP Sales.
-      </p>
+      <div className="container md:mx-auto md:flex justify-between items-center">
+        <div className=" md:max-w-[50%]  flex flex-col items-start justify-start md:gap-9">
+          <span className="text-[#59b1f3] uppercase px-6 py-3 text-lg font-bold leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%]">
+            Fractional Sales Leader
+          </span>
+          <p className=" mt-8 mb-16 text-lg leading-[140%] md:text-2xl md:leading-[140%] md:mt-0 md:mb-6 ">
+            As a Fractional VP Sales I can help with anything from go-to-market
+            strategy, getting hands-on building outreach campaigns, or team
+            development, to pipeline reviews, sales strategy, and beyond.
+          </p>
         </div>
-      
-      <img src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65372cd6c3d6faf08e7cddcb_Mask%20group.png" loading="lazy"
-    //    style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" data-w-id="e4f2f76f-eee4-ba82-ac20-c2898191e212" 
-       alt="" />
-    </div>
-  </section>
-  )
-}
 
-export default Sales
+        <img
+          src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65372cd6c3d6faf08e7cddcb_Mask%20group.png"
+          loading="lazy"
+          alt=""
+        />
+      </div>
+    </section>
+  );
+};
+
+export default Sales;

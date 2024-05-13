@@ -18,60 +18,59 @@ const Header = () => {
         </a>
 
         <div className=" hidden   md:flex gap-10 justify-self-start">
-            <a
-              href="/"
-              className=" text-2xl text-white uppercase leading-[140%]"
-            >
-              Home
-            </a>
-            <a
-              href="/"
-              className=" text-2xl text-white uppercase leading-[140%]"
-            >
-              About
-            </a>
-            <a
-              href="/"
-              className=" text-2xl text-white uppercase leading-[140%]"
-            >
-              Services
-            </a>
-          </div>
-          <a href="" className=" hidden md:block">
-            <Image
-              src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65279aef2546312f94725dd9_Logo.svg"
-              alt=""
-              width={130}
-              height={44}
-            />
+          <a href="/" className=" text-2xl text-white uppercase leading-[140%]">
+            Home
           </a>
-          <div className=" hidden justify-self-end  md:flex gap-10" >
-            <a
-              href="/"
-              className=" text-2xl text-white uppercase leading-[140%]"
-            >
-              Resources
-            </a>
-            <a
-              href="/"
-              className=" text-2xl text-white uppercase leading-[140%] flex items-center gap-[6.4px]"
-            >
-              Contact{" "}
-              <span className=" w-5 h-5 text-white block">
-                <svg
-                  className="w-full self-center"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M16.0039 9.414L7.39691 18.021L5.98291 16.607L14.5889 8H7.00391V6H18.0039V17H16.0039V9.414V9.414Z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </span>
-            </a>
-          </div>
+          <a href="/" className=" text-2xl text-white uppercase leading-[140%]">
+            About
+          </a>
+          <a href="/" className=" text-2xl text-white uppercase leading-[140%]">
+            Services
+          </a>
+        </div>
+        <a href="" className=" hidden md:block">
+          <Image
+            src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65279aef2546312f94725dd9_Logo.svg"
+            alt=""
+            width={130}
+            height={44}
+          />
+        </a>
+        <div className=" hidden justify-self-end items-center  md:flex gap-10">
+          <a href="/" className=" text-2xl text-white uppercase leading-[140%]">
+            Resources
+          </a>
+          <a
+            href="/"
+            className=" text-2xl overflow-hidden text-white uppercase leading-[140%] flex items-center gap-[6.4px]"
+          >
+            <div className=" parent-div overflow-hidden h-[30px] text-2xl text-white uppercase leading-[140%] flex flex-col justify-items-start items-center ">
+              <h6 className=" min-h-[30px] flex items-center justify-center btn-animation    ">
+              
+                Contact
+              </h6>
+
+              <h6 className="  min-h-[30px] flex items-center justify-center  btn-animation ">
+               
+                Contact
+              </h6>
+            </div>
+
+            <span className=" w-5 h-5 text-white block">
+              <svg
+                className="w-full self-end"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.0039 9.414L7.39691 18.021L5.98291 16.607L14.5889 8H7.00391V6H18.0039V17H16.0039V9.414V9.414Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </span>
+          </a>
+        </div>
 
         {/* <div className="hidden md:flex items-center justify-between">
        
