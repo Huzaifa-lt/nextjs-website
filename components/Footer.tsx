@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="section footer py-[60px] pb-20 md:py-[132px] ">
+    <section className="section footer py-[60px] pb-10 md:pt-[132px] md:pb-20 ">
       <div className=" container flex flex-col gap-8 items-stretch justify-between relative z-10 md:mx-auto">
         <div>
           <div className=" flex-shrink-0 basis-auto flex items-center justify-center ">

@@ -7,3 +7,25 @@
     padding-top: 200px;
     padding-bottom: 200px;
   }
+  .about-hero h1{
+    font-size: 56px;
+   line-height: 110%;
+  }
+ 
+
+  @media (min-width : 768px){
+      .about-detail{
+       display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 80px;
+  }
+  .about-detail p{
+    flex-basis: 46%;
+  } 
+  .about-hero h1{
+    font-size: 112px;
+    line-height: 110%;
+  }
+  }
+

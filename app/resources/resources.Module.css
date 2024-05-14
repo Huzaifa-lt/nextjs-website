@@ -1,0 +1,24 @@
+.resources-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #111), linear-gradient(rgba(17, 17, 17, .24), rgba(17, 17, 17, .24)), url('https://assets-global.website-files.com/651ce31eb5c6123602f87af4/6530978eb421145fe5e6ca13_AdobeStock_428809246.webp');
+    background-position: 0 0, 0 0, 50%;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+
+    opacity: 1;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.resources-section h1{
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 110%;
+    text-align: center;
+    }
+
+    @media (min-width : 768px){
+        .resources-section h1{
+            font-size: 112px;
+        }
+    }

@@ -1,0 +1,47 @@
+.contact-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, #111),
+    url("https://assets-global.website-files.com/651ce31eb5c6123602f87af4/651eb56668a8330186e31496_Pattern.png"),
+    linear-gradient(rgba(0, 145, 255, 0.15), rgba(255, 255, 255, 0));
+  background-position: 0 0, 50% 0, 0 0;
+  background-repeat: repeat, repeat, repeat;
+  background-size: auto, auto, auto;
+  background-attachment: scroll, fixed, scroll;
+  opacity: 1;
+  padding-inline: 16px;
+  padding-bottom: 40px;
+  padding-top: 140px;
+}
+
+.contact-hero h1{
+text-transform: uppercase;
+font-size: 56px;
+font-weight: 400;
+line-height: 110%;
+overflow-wrap: normal;
+-webkit-text-fill-color: transparent;
+background: linear-gradient(to right, #06b6d4, #3b82f6); /* Added comma and end color */
+--webkit-background-clip: text;
+background-clip: text;
+}
+
+.contact-hero h5{
+    font-size: 24px;
+}
+
+
+
+@media (min-width : 768px){
+    .contact-hero{
+        padding: 164px 30px 72px;
+    }
+    .contact-hero h1{
+       font-size: 112px;
+    }
+    .contact-hero h5{
+        text-transform: uppercase;
+     
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 120%;
+    }
+}
