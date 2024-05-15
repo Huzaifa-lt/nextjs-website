@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
@@ -18,30 +19,30 @@ const Header = () => {
         </a>
 
         <div className=" hidden   md:flex gap-10 justify-self-start">
-          <a href="/" className=" text-2xl text-white uppercase leading-[140%]">
+          <Link href="/" className=" text-2xl text-white uppercase leading-[140%]">
             Home
-          </a>
-          <a href="/" className=" text-2xl text-white uppercase leading-[140%]">
+          </Link>
+          <Link href="/about" className=" text-2xl text-white uppercase leading-[140%]">
             About
-          </a>
-          <a href="/" className=" text-2xl text-white uppercase leading-[140%]">
+          </Link>
+          <Link href="/services" className=" text-2xl text-white uppercase leading-[140%]">
             Services
-          </a>
+          </Link>
         </div>
-        <a href="" className=" hidden md:block">
+        <Link href="/" className=" hidden md:block">
           <Image
             src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65279aef2546312f94725dd9_Logo.svg"
             alt=""
             width={130}
             height={44}
           />
-        </a>
+        </Link>
         <div className=" hidden justify-self-end items-center  md:flex gap-10">
-          <a href="/" className=" text-2xl text-white uppercase leading-[140%]">
+          <Link href="/resources" className=" text-2xl text-white uppercase leading-[140%]">
             Resources
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            href="/contact"
             className=" text-2xl overflow-hidden text-white uppercase leading-[140%] flex items-center gap-[6.4px]"
           >
             <div className=" parent-div overflow-hidden h-[30px] text-2xl text-white uppercase leading-[140%] flex flex-col justify-items-start items-center ">
@@ -69,7 +70,7 @@ const Header = () => {
                 ></path>
               </svg>
             </span>
-          </a>
+          </Link>
         </div>
 
         {/* <div className="hidden md:flex items-center justify-between">

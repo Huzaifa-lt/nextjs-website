@@ -15,37 +15,37 @@ const Footer = () => {
          
           <div className="flex flex-col gap-4 items-center md:gap-8">
             <div className=" mt-9 flex flex-wrap  gap-2  md:gap-4">
-              <a
+              <Link
                 href="/"
                 className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,0.08)] rounded-[8px] self-center md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
               >
                 Home
-              </a>
-              <a
-                href="/"
+              </Link>
+              <Link
+                href="/about"
                 className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
               >
                 about
-              </a>
-              <a
-                href="/"
+              </Link>
+              <Link
+                href="/services"
                 className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
               >
                 Services
-              </a>
-              <a
-                href="/"
+              </Link>
+              <Link
+                href="/resources"
                 className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
               >
                 Resources
-              </a>
-              <a
-                href="/"
+              </Link>
+              <Link
+                href="/contact"
                 className=" py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] 
             rounded-[8px] transition ease-in-out md:py-3 md:px-6 hover:bg-[#59b1f3] hover:border-[#59b1f3]"
               >
                 Contact
-              </a>
+              </Link>
             </div>
             <p className=" text-xl leading-[140%]">I've sold things you wouldn't believe...</p>
             <div className="flex items-center gap-2 md:gap-4">
