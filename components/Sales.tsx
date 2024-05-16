@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Sales = () => {
@@ -15,10 +16,12 @@ const Sales = () => {
           </p>
         </div>
 
-        <img
+        <Image
           src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65372cd6c3d6faf08e7cddcb_Mask%20group.png"
           loading="lazy"
           alt=""
+          width={500}
+          height={500}
         />
       </div>
     </section>

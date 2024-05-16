@@ -1,15 +1,18 @@
+import Image from "next/image";
 import React from "react";
 
 const Experience = () => {
   return (
     <section className="mb-10 background-img py-[60px] px-4 md:py-24 md:px-[30px]  ">
       <div className="container md:mx-auto lg:flex justify-between items-center">
-        <img
+        <Image
           src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65372e589fb1ae50f880778f_Mask%20group%20(2).png"
           loading="lazy"
           className=" max-w-[50%]"
           data-w-id="7e3faa96-da47-390e-c796-50a8a5359d08"
           alt=""
+          width={500}
+          height={500}
         />
 
         <div className=" md:max-w-[48%] flex flex-col justify-items-start items-start md:gap-9 " >

@@ -3,9 +3,9 @@ import React from "react";
 
 const ServicesApproach = () => {
   return (
-    <section>
-      <div className="container md:mx-auto">
-        <div>
+    <section className="background-img">
+      <div className="container section-wrapper md:mx-auto">
+        <div className="img-wrapper flex flex-col justify-start items-start gap-2 md:gap-4">
           <h2>Approach</h2>
           <Image
             src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/651ed2c729186d529f253369_2.png"
@@ -15,11 +15,11 @@ const ServicesApproach = () => {
           />
         </div>
 
-        <div>
-          <span className="text-[#59b1f3] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%] ">
+        <div className="flex flex-col items-start justify-start gap-2  content-wrapper md:gap-4 ">
+          <span className="mb-6 text-[#59b1f3] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%] ">
             Sales and GTM Strategy Workshop $3,950 exc GST.
           </span>
-          <p>
+          <p className=" mb-6 text-lg leading-[140%] ">
             This workshop is designed to assess your current sales activities
             and craft a roadmap to elevate &nbsp;sales performance. Conducted
             over half a day, it can be facilitated remotely or in-person. It's

@@ -17,11 +17,13 @@ const Expertise = () => {
           </p>
         </div>
 
-        <img
-          src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65372e589fb1ae50f880778f_Mask%20group%20(2).png"
+        <Image
+          src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65372e44f22aef3b693cf2f9_Mask%20group%20(1).png"
           loading="lazy"
           data-w-id="7e3faa96-da47-390e-c796-50a8a5359d08"
           alt=""
+          width={500}
+          height={500}
         />
       </div>
     </section>
