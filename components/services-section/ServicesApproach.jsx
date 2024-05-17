@@ -22,9 +22,10 @@ const ServicesApproach = () => {
           <p className=" mb-6 text-lg leading-[140%] ">
             This workshop is designed to assess your current sales activities
             and craft a roadmap to elevate &nbsp;sales performance. Conducted
-            over half a day, it can be facilitated remotely or in-person. It's
-            an opportunity for us to test our partnership’s fit and build the
-            foundations of working together. A typical agenda might encompass:
+            over half a day, it can be facilitated remotely or in-person.
+            It&apos;s an opportunity for us to test our partnership’s fit and
+            build the foundations of working together. A typical agenda might
+            encompass:
           </p>
 
           <ul>

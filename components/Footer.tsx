@@ -47,7 +47,8 @@ const Footer = () => {
                 Contact
               </Link>
             </div>
-            <p className=" text-xl leading-[140%]">I've sold things you wouldn't believe...</p>
+            <p className="text-xl leading-[140%]">I&apos;ve sold things you wouldn&apos;t believe...</p>
+
             <div className="flex items-center gap-2 md:gap-4">
               <Link href="">
                 <Image
