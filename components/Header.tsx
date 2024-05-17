@@ -1,14 +1,47 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const Header = () => {
+  const [showNavbar, setShowNavbar] = useState(false);
+
+  function handleClick() {
+    setShowNavbar((prevValue) => !prevValue);
+  }
+
   return (
     <header className=" bg-[rgba(0 ,0 , 0, 0)] opacity-100  fixed w-full backdrop:blur-[32px] ">
       <nav
         className=" container  py-5 bg-[#ddd]  bg-[rgba(0 ,0 , 0, 0)]  relative flex justify-between items-center md:mx-auto "
         style={{ backgroundColor: "rgba(0 ,0 , 0, 0)" }}
       >
+          {showNavbar &&  <div  className={`transition-transform transform ${
+            showNavbar ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
+          } w-72 mx-auto bg-white flex flex-col items-center justify-center rounded-xl absolute top-full left-0 right-0`}>
+          <Link
+            href="/"
+            aria-current="page"
+            className=" py-5 text-[#000] text-2xl uppercase "
+          >
+           Home
+          </Link>
+          <Link href="/about"  className=" py-5 text-[#000] text-2xl uppercase ">
+           About
+          </Link>
+          <Link href="/services"  className=" py-5 text-[#000] text-2xl uppercase ">
+            Services
+          </Link>
+          <Link href="/resources"  className=" py-5 text-[#000] text-2xl uppercase ">
+            Resources
+          </Link>
+          <Link href="/contact"  className=" py-5 text-[#000] text-2xl uppercase ">
+        Contact
+          </Link>
+        </div> }
+
+       
         <a href="" className=" md:hidden">
           <Image
             src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65279aef2546312f94725dd9_Logo.svg"
@@ -19,13 +52,22 @@ const Header = () => {
         </a>
 
         <div className=" hidden   md:flex gap-10 justify-self-start">
-          <Link href="/" className=" text-2xl text-white uppercase leading-[140%]">
+          <Link
+            href="/"
+            className=" text-2xl text-white uppercase leading-[140%]"
+          >
             Home
           </Link>
-          <Link href="/about" className=" text-2xl text-white uppercase leading-[140%]">
+          <Link
+            href="/about"
+            className=" text-2xl text-white uppercase leading-[140%]"
+          >
             About
           </Link>
-          <Link href="/services" className=" text-2xl text-white uppercase leading-[140%]">
+          <Link
+            href="/services"
+            className=" text-2xl text-white uppercase leading-[140%]"
+          >
             Services
           </Link>
         </div>
@@ -38,7 +80,10 @@ const Header = () => {
           />
         </Link>
         <div className=" hidden justify-self-end items-center  md:flex gap-10">
-          <Link href="/resources" className=" text-2xl text-white uppercase leading-[140%]">
+          <Link
+            href="/resources"
+            className=" text-2xl text-white uppercase leading-[140%]"
+          >
             Resources
           </Link>
           <Link
@@ -47,12 +92,10 @@ const Header = () => {
           >
             <div className=" parent-div overflow-hidden h-[30px] text-2xl text-white uppercase leading-[140%] flex flex-col justify-items-start items-center ">
               <h6 className=" min-h-[30px] flex items-center justify-center btn-animation    ">
-              
                 Contact
               </h6>
 
               <h6 className="  min-h-[30px] flex items-center justify-center  btn-animation ">
-               
                 Contact
               </h6>
             </div>
@@ -137,6 +180,7 @@ const Header = () => {
           alt=""
           width={40}
           height={40}
+          onClick={handleClick}
           className="md:hidden"
         />
       </nav>

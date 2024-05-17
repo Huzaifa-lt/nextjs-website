@@ -8,19 +8,19 @@ const Experience = () => {
         <Image
           src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65372e589fb1ae50f880778f_Mask%20group%20(2).png"
           loading="lazy"
-          className=" max-w-[50%]"
+        
           data-w-id="7e3faa96-da47-390e-c796-50a8a5359d08"
           alt=""
           width={500}
           height={500}
         />
 
-        <div className=" md:max-w-[48%] flex flex-col justify-items-start items-start md:gap-9 " >
+        <div className=" mt-10 md:max-w-[48%] flex flex-col justify-items-start items-start md:gap-9 md:mt-0  " >
           <span className="text-[#59b1f3] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%] ">
             Experience
           </span>
 
-          <p className=" mt-16 mb-10 para-typography md:text-2xl md:leading-[140%] md:mt-0 md:mb-6 ">
+          <p className=" mt-8 mb-10 para-typography md:text-2xl md:leading-[140%] md:mt-0 md:mb-6 ">
             With more than a decade at VC-backed startups + scale ups I’ve
             launched and sold new products and services across Australia, APAC
             and the US. I’ve built and run teams through direct, JVs or
