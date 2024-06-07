@@ -19,7 +19,7 @@ const AboutDetail = () => {
           industry across all technology sectors. I got exposed to an enormous
           range of technology there, but I was desperate to find a more dynamic
           experience and so jumped at the chance to join an early stage startup
-          Oomph as a junior sales exec (any seat on the rocketship). &nbsp;I
+          Oomph as a junior sales exec (any seat on the rocketship). I
           ended up running the sales and customer service teams as VP Commercial
           and launched the business into the US and generally had a blast doing
           it.
@@ -28,7 +28,7 @@ const AboutDetail = () => {
         <p className="">
           Next up was a late-stage, very well-funded (Series E, 900M) adtech
           player MediaMath where I ran the Asia business from Singapore as VP
-          Commercial. &nbsp;Averaging five countries a month, I launched both
+          Commercial. Averaging five countries a month, I launched both
           South Korean and India which have both gone on to become powerhouse
           markets.
           <br />

@@ -3,8 +3,8 @@ import ResourcesCard from "./ResourcesCard";
 
 const CardWrapper = () => {
   return (
-    <section className=" py-[60px] resources-bg-img ">
-      <div className="  container card-wrapper   md:mx-auto  ">
+    <section className="py-[60px] resources-bg-img">
+      <div className="container card-wrapper md:mx-auto">
         <ResourcesCard
           imageSrc="https://assets-global.website-files.com/6530985e4f1e494933fc9b69/65efd592700897a29c2388d1_Sales%20Valley%20of%20Death%20thumb.jpg"
           title="The Sales Valley Of Death"

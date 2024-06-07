@@ -15,16 +15,16 @@ const Experience = () => {
           height={500}
         />
 
-        <div className=" mt-10 md:max-w-[48%] flex flex-col justify-items-start items-start md:gap-9 md:mt-0  " >
+        <div className="mt-10 md:max-w-[48%] flex flex-col justify-items-start items-start md:gap-9 md:mt-0">
           <span className="text-[#59b1f3] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%] ">
             Experience
           </span>
 
-          <p className=" mt-8 mb-10 para-typography md:text-2xl md:leading-[140%] md:mt-0 md:mb-6 ">
+          <p className="mt-8 mb-10 para-typography md:text-2xl md:leading-[140%] md:mt-0 md:mb-6">
             With more than a decade at VC-backed startups + scale ups I’ve
             launched and sold new products and services across Australia, APAC
             and the US. I’ve built and run teams through direct, JVs or
-            partnership models.&nbsp;I’m most passionate about early-stage,
+            partnership models. I’m most passionate about early-stage,
             high-growth startups. <br />
             <br />
             As a Fractional VP Sales I can help with anything from go-to-market

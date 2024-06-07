@@ -5,12 +5,12 @@ const ServicesIntro = () => {
   return (
     <section className="background-img">
       <div className="container section-wrapper md:mx-auto ">
-        <div className=" mb-10 content-wrapper">
-          <p className=" mb-6 text-lg leading-[140%] para-typo">
+        <div className="mb-10 content-wrapper">
+          <p className="mb-6 text-lg leading-[140%] para-typo">
             As a Fractional VP Sales I work ‘inside the tent’ as part of the
             exec leadership team. This means that I have an email, a
-            &nbsp;title, &nbsp;access and availability on all of your systems
-            including Slack, Zoom even Teams! &nbsp;Any intellectual property
+            title, access and availability on all of your systems
+            including Slack, Zoom even Teams! Any intellectual property
             created during our engagement is fully owned by your business. By
             working as a member of your team, I ensure that sales strategies are
             implemented effectively, communication flows smoothly, and we

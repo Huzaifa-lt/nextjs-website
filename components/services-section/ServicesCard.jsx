@@ -6,7 +6,7 @@ const ServicesCard = ({ title, detail }) => {
       <h3 className="text-[#59b1f3] uppercase text-lg font-bold leading-[140%] md:text-2xl md:leading-[140%]">
         {title}
       </h3>
-      <p className=" mb-5  text-xl text-white">{detail}</p>
+      <p className="mb-5 text-xl text-white">{detail}</p>
     </div>
   );
 };

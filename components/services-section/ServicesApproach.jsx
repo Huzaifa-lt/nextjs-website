@@ -19,11 +19,11 @@ const ServicesApproach = () => {
           <span className="mb-6 text-[#59b1f3] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%] ">
             Sales and GTM Strategy Workshop $3,950 exc GST.
           </span>
-          <p className=" mb-6 text-lg leading-[140%] ">
+          <p className="mb-6 text-lg leading-[140%]">
             This workshop is designed to assess your current sales activities
-            and craft a roadmap to elevate &nbsp;sales performance. Conducted
+            and craft a roadmap to elevate sales performance. Conducted
             over half a day, it can be facilitated remotely or in-person.
-            It&apos;s an opportunity for us to test our partnership’s fit and
+            It's an opportunity for us to test our partnership’s fit and
             build the foundations of working together. A typical agenda might
             encompass:
           </p>
