@@ -29,20 +29,19 @@ const ServicesApproach = () => {
           </p>
 
           <ul>
-            <li>Market segmentation and targeting</li>
-            <li>Identifying your ideal customer profile</li>
-            <li>Understanding customer pain points</li>
-            <li>Crafting a unique selling proposition (USP)</li>
-            <li>Differentiating from competitors</li>
-            <li>Mapping the sales funnel</li>
-            <li>Defining key stages in the sales process</li>
+            <li>Audit your current tech. stack</li>
+            <li>Analyze customer pain points</li>
+            <li>Plan for where you want to be in future</li>
+            <li>Focus on cash cows and reverse engineer</li>
+            <li>Quantify gaps in the market and its value</li>
+            <li>Information is key but action is king</li>
+            <li>Resources and their backups</li>
             <li>Overview of sales tools (CRM, automation tools, etc.)</li>
-            <li>Measuring and analyzing sales metrics</li>
+            <li>Compliance and related knowledge</li>
+            <li>Motivating and incentivizing the tech. team</li>
+            <li>Future and why eco-friendly systems are a must!</li>
+            <li>Measuring and analyzing SLA metrics</li>
             <li>Hiring and onboarding sales professionals</li>
-            <li>Ongoing training and development</li>
-            <li>Motivating and incentivizing the sales team</li>
-            <li>Setting sales goals and targets</li>
-            <li>Developing a sales action plan</li>
           </ul>
         </div>
       </div>

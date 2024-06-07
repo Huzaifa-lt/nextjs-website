@@ -47,7 +47,8 @@ const Footer = () => {
                 Contact
               </Link>
             </div>
-            <p className="text-xl leading-[140%]">Quantum Edge can serve 130 Billion Events <br/> per Month per Server 🚀 (FREE FOR A YEAR)</p>
+            <p className="text-xl leading-[140%]">Quantum Edge can serve 130 Billion Events per Month per Server 🚀<br/>
+              (GET YOURS FREE FOR A YEAR - TALK TO US & WE WILL MAKE IT HAPPEN)</p>
 
             <div className="flex items-center gap-2 md:gap-4">
               <Link href="">

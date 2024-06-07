@@ -7,8 +7,8 @@ const ServicesIntro = () => {
       <div className="container section-wrapper md:mx-auto ">
         <div className="mb-10 content-wrapper">
           <p className="mb-6 text-lg leading-[140%] para-typo">
-            As a Fractional CTO, I work ‘inside the tent’ as part of the
-            exec. leadership team. This means that I have an email, a
+            As a Fractional CTO, I work ‘in-house’ as part of the
+            Exec. leadership team. This means that I have an email, a
             title, access and availability on all your systems' access
             including Slack, Zoom or even Teams! Any intellectual property
             created during our engagement is fully owned by your business. By

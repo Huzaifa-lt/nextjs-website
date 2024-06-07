@@ -24,11 +24,11 @@ const FractionalTechnology= () => {
           </p>
 
           <ul className="">
-            <li>Sales strategy, activity and pipeline review</li>
-            <li>Deal quarterbacking</li>
-            <li>Hiring and Team Performance Management</li>
+            <li>Tech. activities and cost review</li>
+            <li>Strategy and goals for next six months</li>
+            <li>Hiring and setting performance metrics</li>
             <li>Messaging and channel review</li>
-            <li>Sales Plan Development</li>
+            <li>Realtime review of your public info. portal</li>
             <li>Dedicated one day per week collaboration</li>
           </ul>
         </div>
