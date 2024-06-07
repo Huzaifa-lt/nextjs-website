@@ -1,24 +1,23 @@
 .about-hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0), #111), linear-gradient(rgba(17, 17, 17, .24), rgba(17, 17, 17, .24)), url('https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65279b384fea32f3c85dab88_image%201%20(2).png');
-    background-position: 0 0, 0 0, 50%;
-    background-repeat: repeat, repeat, no-repeat;
-    background-size: auto, auto, cover;
-    background-attachment: scroll, scroll, fixed;
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-  .about-hero h1{
-    font-size: 56px;
-   line-height: 110%;
-  }
- 
+  background-image: linear-gradient(rgba(0, 0, 0, 0), #111), linear-gradient(rgba(17, 17, 17, .24), rgba(17, 17, 17, .24)), url('https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65279b384fea32f3c85dab88_image%201%20(2).png');
+  background-position: 0 0, 0 0, 50%;
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+  background-attachment: scroll, scroll, fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.about-hero h1{
+  font-size: 56px;
+ line-height: 110%;
+}
 
-  @media (min-width : 768px){
-      .about-detail{
-       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 80px;
+@media (min-width : 768px){
+  .about-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
   }
   .about-detail p{
     flex-basis: 46%;
@@ -27,5 +26,4 @@
     font-size: 112px;
     line-height: 110%;
   }
-  }
-
+}
