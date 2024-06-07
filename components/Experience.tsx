@@ -21,15 +21,17 @@ const Experience = () => {
           </span>
 
           <p className="mt-8 mb-10 para-typography md:text-2xl md:leading-[140%] md:mt-0 md:mb-6">
-            With more than a decade at VC-backed startups + scale ups I’ve
-            launched and sold new products and services across Australia, APAC
-            and the US. I’ve built and run teams through direct, JVs or
-            partnership models. I’m most passionate about early-stage,
-            high-growth startups. <br />
+            With more than a decade of working with $1B worth companies, I've
+            honed developing products and services across Australia, APAC and
+            the US. From a simple integration of two realtime SaaS systems to
+            developing end-to-end Artificial Intelligent bots sometimes built
+            using AI tools themselves, I can make the magic happen. I'm mostly
+            passionate about early-stage startups willing to take the leap to
+            aim for the stars!<br />
             <br />
-            As a Fractional VP Sales I can help with anything from go-to-market
-            strategy, getting hands-on building outreach campaigns, or team
-            development, to pipeline reviews, sales strategy, and beyond.
+            As a Fractional CTO, I can accelerate your ideas to launch at the
+            global scale! Talk to me about bringing your notes into real-life
+            software that scales with your sales team and returns.
           </p>
         </div>
       </div>

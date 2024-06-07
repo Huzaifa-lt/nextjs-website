@@ -12,10 +12,10 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-[rgba(0 ,0 , 0, 0)] opacity-100 fixed w-full backdrop:blur-[32px]">
+    <header className="bg-[rgba(0, 0, 0, 0)] opacity-100 fixed w-full backdrop:blur-[32px]">
       <nav
-        className="container py-5 bg-[#ddd] bg-[rgba(0 ,0 , 0, 0)] relative flex justify-between items-center md:mx-auto"
-        style={{ backgroundColor: "rgba(0 ,0 , 0, 0)" }}
+        className="container py-5 bg-[#ddd] bg-[rgba(0, 0, 0, 0)] relative flex justify-between items-center md:mx-auto"
+        style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
       >
           {showNavbar &&  <div  className={`transition-transform transform ${
             showNavbar ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
@@ -37,7 +37,7 @@ const Header = () => {
             Resources
           </Link>
           <Link href="/contact" className="py-5 text-[#000] text-2xl uppercase">
-        Contact
+            Contact
           </Link>
         </div> }
 

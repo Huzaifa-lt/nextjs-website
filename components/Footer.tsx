@@ -4,12 +4,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="section footer py-[60px] pb-10 md:pt-[132px] md:pb-20 ">
+    <section className="section footer py-[60px] pb-10 md:pt-[132px] md:pb-20">
       <div className="container flex flex-col gap-8 items-stretch justify-between relative z-10 md:mx-auto">
         <div>
           <div className="flex-shrink-0 basis-auto flex items-center justify-center">
-             <h5 className="text-[64px] font-normal leading-[110%] font-Anton text-white uppercase sm:text-[12vh] md:text-[18vh] lg:text-[25vh] 2xl:text-[240px] ">
-            Quantum<span className="king text-[64px] sm:text-[12vh] md:text-[18vh] lg:text-[25vh] 2xl:text-[240px] ">Edge</span>
+             <h5 className="text-[64px] font-normal leading-[110%] font-Anton text-white uppercase sm:text-[12vh] md:text-[18vh] lg:text-[25vh] 2xl:text-[240px]">
+            Quantum<span className="king text-[64px] sm:text-[12vh] md:text-[18vh] lg:text-[25vh] 2xl:text-[240px]">Edge</span>
           </h5>
           </div>
          
@@ -47,7 +47,7 @@ const Footer = () => {
                 Contact
               </Link>
             </div>
-            <p className="text-xl leading-[140%]">I've sold things you wouldn't believe...</p>
+            <p className="text-xl leading-[140%]">Quantum Edge can serve 130 Billion Events <br/> per Month per Server 🚀 (FREE FOR A YEAR)</p>
 
             <div className="flex items-center gap-2 md:gap-4">
               <Link href="">

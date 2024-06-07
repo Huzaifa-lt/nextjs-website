@@ -17,14 +17,14 @@ const ServicesApproach = () => {
 
         <div className="flex flex-col items-start justify-start gap-2  content-wrapper md:gap-4 ">
           <span className="mb-6 text-[#59b1f3] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%] ">
-            Sales and GTM Strategy Workshop $3,950 exc GST.
+            Tech & AI Workshop $4,950 exc GST.
           </span>
           <p className="mb-6 text-lg leading-[140%]">
-            This workshop is designed to assess your current sales activities
-            and craft a roadmap to elevate sales performance. Conducted
-            over half a day, it can be facilitated remotely or in-person.
-            It's an opportunity for us to test our partnership’s fit and
-            build the foundations of working together. A typical agenda might
+            This workshop is designed to assess your current tech. stack and 
+            activities and craft a roadmap to elevate your company's SLAs with
+            your clients. Conducted over a full day, it can be facilitated remotely
+            or in-person. It's an amazing opportunity for us to test our partnership’s
+            fit and build the foundations of working together. A typical agenda might
             encompass:
           </p>
 

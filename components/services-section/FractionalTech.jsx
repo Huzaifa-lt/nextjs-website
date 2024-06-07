@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const FractionalSales = () => {
+const FractionalTechnology= () => {
   return (
     <section className="background-img">
       <div className="container section-wrapper md:mx-auto">
@@ -16,12 +16,11 @@ const FractionalSales = () => {
 
         <div className="flex flex-col items-start justify-start gap-2 content-wrapper md:gap-4">
           <span className="mb-6 text-[#59b1f3] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%]">
-            Fractional VP Sales - $7,000 excl GST per month
+            Fractional CTO - $10,000 excl GST per month
           </span>
           <p className="mb-6 text-lg leading-[140%]">
-            Thinking about a VP Sales but it’s too early or can’t afford one?
-            Get access to a 20yr sales veteran to help supercharge your
-            sales as a Fractional VP Sales.
+            Thinking about a VP Product / Engineering but it’s too early or can’t afford one?
+            Get access to a 20yr technology specialist to help supercharge your ideas come alive
           </p>
 
           <ul className="">
@@ -38,4 +37,4 @@ const FractionalSales = () => {
   );
 };
 
-export default FractionalSales;
+export default FractionalTechnology;

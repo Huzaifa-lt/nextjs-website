@@ -3,7 +3,7 @@ import "./services.Module.css";
 import ServicesHero from "../../components/services-section/ServicesHero";
 import ServicesIntro from "../../components/services-section/ServicesIntro";
 import ServicesApproach from "../../components/services-section/ServicesApproach";
-import FractionalSales from "../../components/services-section/FractionalSales";
+import FractionalTechnology from "../../components/services-section/FractionalTech";
 import ServicesCardWrapper from "../../components/services-section/ServicesCardWrapper";
 import Footer from "../../components/Footer";
 
@@ -13,7 +13,7 @@ const ServicesPage = () => {
       <ServicesHero />
       <ServicesIntro />
       <ServicesApproach />
-      <FractionalSales />
+      <FractionalTechnology />
       <ServicesCardWrapper />
       <Footer />
     </>

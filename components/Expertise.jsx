@@ -11,9 +11,10 @@ const Expertise = () => {
           </span>
 
           <p className="mt-8 mb-10 para-typography md:mt-0 md:mb-6">
-            I am a 20-year technology B2B sales veteran (god that makes me feel
-            old), founder, builder, nocoder and automation fan, which you can
-            access as a Fractional VP Sales.
+            We are your global technology experts specializing in diverse expertise
+            and unique business acumen. Over the years, the art to quickly bring an
+            idea to life is what we excel at. Talk to us and see how we can make it
+            happen!
           </p>
         </div>
 

@@ -7,14 +7,14 @@ const ServicesIntro = () => {
       <div className="container section-wrapper md:mx-auto ">
         <div className="mb-10 content-wrapper">
           <p className="mb-6 text-lg leading-[140%] para-typo">
-            As a Fractional VP Sales I work ‘inside the tent’ as part of the
-            exec leadership team. This means that I have an email, a
-            title, access and availability on all of your systems
-            including Slack, Zoom even Teams! Any intellectual property
+            As a Fractional CTO, I work ‘inside the tent’ as part of the
+            exec. leadership team. This means that I have an email, a
+            title, access and availability on all your systems' access
+            including Slack, Zoom or even Teams! Any intellectual property
             created during our engagement is fully owned by your business. By
-            working as a member of your team, I ensure that sales strategies are
+            working as a member of your team, I ensure that tech. strategies are
             implemented effectively, communication flows smoothly, and we
-            achieve your business goals together.
+            achieve your business goals faster and more effectively.
           </p>
         </div>
         <div className="img-wrapper">
