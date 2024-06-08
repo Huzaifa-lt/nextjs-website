@@ -10,7 +10,7 @@ const Hero = () => {
            <p>AI / Web3 / Quantum</p> solution in a record time
         </h1>
         <Link href="/contact">
-          <button className="px-[25px] py-3 text-base font-bold text-white bg-[rgba(0,0,0,0)] cursor-pointer border-[2px] border-[rgba(255,255,255,0.16)] rounded-[8px] transition ease-in-out md:text-2xl hover:bg-[#59b1f3] hover:border-[#59b1f3]">
+          <button className="px-[25px] py-3 text-base font-bold text-white bg-[rgba(0,0,0,0)] cursor-pointer border-[2px] border-[rgba(255,255,255,0.16)] rounded-[8px] transition ease-in-out md:text-2xl hover:bg-[#EC8B5D] hover:border-[#EC8B5D]">
             BOOK IT
           </button>
         </Link>

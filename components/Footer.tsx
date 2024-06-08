@@ -7,9 +7,9 @@ const Footer = () => {
     <section className="section footer py-[60px] pb-10 md:pt-[132px] md:pb-20">
       <div className="container flex flex-col gap-8 items-stretch justify-between relative z-10 md:mx-auto">
         <div>
-          <div className="flex-shrink-0 basis-auto flex items-center justify-center">
-             <h5 className="text-[64px] font-normal leading-[110%] font-Anton text-white uppercase sm:text-[12vh] md:text-[18vh] lg:text-[25vh] 2xl:text-[240px]">
-            Quantum<span className="king text-[64px] sm:text-[12vh] md:text-[18vh] lg:text-[25vh] 2xl:text-[240px]">Edge</span>
+          <div className="flex-shrink-0 basis-auto flex items-center justify-center text-[64px] sm:text-[12vh] md:text-[14vh] lg:text-[16vh] 2xl:text-[240px]">
+             <h5 className="font-normal leading-[110%] font-Anton text-white uppercase">
+            Quantum<span className="king">Edge</span>
           </h5>
           </div>
          
@@ -17,32 +17,32 @@ const Footer = () => {
             <div className="mt-9 flex flex-wrap gap-2 md:gap-4">
               <Link
                 href="/"
-                className="py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,0.08)] rounded-[8px] self-center md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
+                className="py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,0.08)] rounded-[8px] self-center md:py-3 md:px-6 transition ease-in-out hover:bg-[#EC8B5D] hover:border-[#EC8B5D]"
               >
                 Home
               </Link>
               <Link
                 href="/about"
-                className="py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
+                className="py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#EC8B5D] hover:border-[#EC8B5D]"
               >
                 about
               </Link>
               <Link
                 href="/services"
-                className="py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
+                className="py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#EC8B5D] hover:border-[#EC8B5D]"
               >
                 Services
               </Link>
               <Link
                 href="/resources"
-                className="py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#59b1f3] hover:border-[#59b1f3]"
+                className="py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] rounded-[8px] md:py-3 md:px-6 transition ease-in-out hover:bg-[#EC8B5D] hover:border-[#EC8B5D]"
               >
                 Resources
               </Link>
               <Link
                 href="/contact"
                 className="py-2 px-4 text-xl text-white uppercase cursor-pointer bg-[rgba(89,177,243,.08)] 
-            rounded-[8px] transition ease-in-out md:py-3 md:px-6 hover:bg-[#59b1f3] hover:border-[#59b1f3]"
+            rounded-[8px] transition ease-in-out md:py-3 md:px-6 hover:bg-[#EC8B5D] hover:border-[#EC8B5D]"
               >
                 Contact
               </Link>

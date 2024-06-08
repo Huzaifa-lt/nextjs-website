@@ -40,17 +40,15 @@ const Header = () => {
             Contact
           </Link>
         </div> }
-
-       
-        <a href="" className=" md:hidden">
+        <Link href="/" className="md:hidden">
           <Image
-            src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65279aef2546312f94725dd9_Logo.svg"
+            src="https://d12852wca2dyvw.cloudfront.net/FractionalQE.svg"
+            loading="lazy"
             alt=""
             width={130}
             height={44}
           />
-        </a>
-
+        </Link>
         <div className="hidden md:flex gap-10 justify-self-start">
           <Link
             href="/"
@@ -73,7 +71,8 @@ const Header = () => {
         </div>
         <Link href="/" className="hidden md:block">
           <Image
-            src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65279aef2546312f94725dd9_Logo.svg"
+            src="https://d12852wca2dyvw.cloudfront.net/FractionalQE.svg"
+            loading="lazy"
             alt=""
             width={130}
             height={44}
@@ -115,68 +114,9 @@ const Header = () => {
             </span>
           </Link>
         </div>
-
-        {/* <div className="hidden md:flex items-center justify-between">
-       
-          <div className="flex gap-10 justify-self-start">
-            <a
-              href="/"
-              className=" text-2xl text-white uppercase leading-[140%]"
-            >
-              Home
-            </a>
-            <a
-              href="/"
-              className=" text-2xl text-white uppercase leading-[140%]"
-            >
-              About
-            </a>
-            <a
-              href="/"
-              className=" text-2xl text-white uppercase leading-[140%]"
-            >
-              Services
-            </a>
-          </div>
-          <a href="">
-            <Image
-              src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65279aef2546312f94725dd9_Logo.svg"
-              alt=""
-              width={130}
-              height={44}
-            />
-          </a>
-          <div className=" justify-self-end flex gap-10" >
-            <a
-              href="/"
-              className=" text-2xl text-white uppercase leading-[140%]"
-            >
-              Resources
-            </a>
-            <a
-              href="/"
-              className=" text-2xl text-white uppercase leading-[140%] flex items-center gap-[6.4px]"
-            >
-              Contact{""}
-              <span className="w-5 h-5 text-white block">
-                <svg
-                  className="w-full self-center"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M16.0039 9.414L7.39691 18.021L5.98291 16.607L14.5889 8H7.00391V6H18.0039V17H16.0039V9.414V9.414Z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </span>
-            </a>
-          </div>
-        </div> */}
-
         <Image
-          src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/651fbacc37126bf6e17296be_menu-2(24x24)%402x.svg"
+          src="https://d12852wca2dyvw.cloudfront.net/menu.svg"
+          loading="lazy"
           alt=""
           width={40}
           height={40}

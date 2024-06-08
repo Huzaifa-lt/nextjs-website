@@ -6,17 +6,17 @@ const Experience = () => {
     <section className="mb-10 background-img py-[60px] px-4 md:py-24 md:px-[30px]  ">
       <div className="container md:mx-auto lg:flex justify-between items-center">
         <Image
-          src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/65372e589fb1ae50f880778f_Mask%20group%20(2).png"
+          src="https://d12852wca2dyvw.cloudfront.net/Experience.jpg"
           loading="lazy"
         
           data-w-id="7e3faa96-da47-390e-c796-50a8a5359d08"
           alt=""
-          width={500}
-          height={500}
+          width={400}
+          height={400}
         />
 
         <div className="mt-10 md:max-w-[48%] flex flex-col justify-items-start items-start md:gap-9 md:mt-0">
-          <span className="text-[#59b1f3] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%] ">
+          <span className="text-[#EC8B5D] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%] ">
             Experience
           </span>
 

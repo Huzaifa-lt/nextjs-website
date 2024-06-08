@@ -41,13 +41,13 @@ ul{
   }
   .hero-section{
     background-color: rgba(0, 0, 0, 0);
-    background-image: linear-gradient(rgba(0, 0, 0, 0), #111), url("https://assets-global.website-files.com/651ce31eb5c6123602f87af4/651ea359d3f554643754f442_Hero%20About.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #111),
+      url("https://d12852wca2dyvw.cloudfront.net/QuantumEdgeMATHs.png");
     background-position: 0 0, 50% 100%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
     background-attachment: scroll, fixed;
     border-bottom: 1px #e4ebf3;
-   
     position: relative;
   }
  
@@ -62,16 +62,13 @@ ul{
   .navbar{
     z-index: 5;
     background-color: rgba(0, 0, 0, 0);
-
-
-
     background: #ddd;
     position: relative;
   }
   .text-span {
     overflow-wrap: normal;
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(to right, #06b6d4, #3b82f6); /* Added comma and end color */
+    background: linear-gradient(to right, #EC8B5D, #EC6A2C); /* Added comma and end color */
     --webkit-background-clip: text;
     background-clip: text;
   }
@@ -84,7 +81,6 @@ ul{
     background-attachment: fixed;
     opacity: 1;
     z-index: -1;
-
   }
 
   .section{
@@ -98,15 +94,14 @@ ul{
   }
   .king{
     text-align: center;
-      text-transform: uppercase;
-      -webkit-text-fill-color: transparent;
-      background-image: linear-gradient(94.78deg, #a0cdef 0%, #046ebe 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
- 
- 
-      font-weight: 400;
-      line-height: 110%;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(94.78deg, #EC8B5D 0%, #EC6A2C 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+     
+    font-weight: 400;
+    line-height: 110%;
   }
   .para-typography{
     font-size: 18px;

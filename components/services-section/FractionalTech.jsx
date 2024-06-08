@@ -7,7 +7,7 @@ const FractionalTechnology= () => {
       <div className="container section-wrapper md:mx-auto">
         <div className="mb-10 img-wrapper">
           <Image
-            src="https://assets-global.website-files.com/651ce31eb5c6123602f87af4/651ed2f1deb9fb4cedda2f0d_3.png"
+            src="https://d12852wca2dyvw.cloudfront.net/QE-Service2.avif"
             alt=""
             width={500}
             height={500}
@@ -15,7 +15,7 @@ const FractionalTechnology= () => {
         </div>
 
         <div className="flex flex-col items-start justify-start gap-2 content-wrapper md:gap-4">
-          <span className="mb-6 text-[#59b1f3] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%]">
+          <span className="mb-6 text-[#EC8B5D] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%]">
             Fractional CTO - $10,000 excl GST per month
           </span>
           <p className="mb-6 text-lg leading-[140%]">
