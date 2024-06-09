@@ -21,11 +21,11 @@ const Experience = () => {
           </span>
 
           <p className="mt-8 mb-10 para-typography md:text-2xl md:leading-[140%] md:mt-0 md:mb-6">
-            With more than a decade of working with $1B worth companies, I've
+            With more than a decade of working with $1B worth companies, I&apos;ve
             honed developing products and services across Australia, APAC and
             the US. From a simple integration of two realtime SaaS systems to
             developing end-to-end Artificial Intelligent bots sometimes built
-            using AI tools themselves, I can make the magic happen. I'm mostly
+            using AI tools themselves, I can make the magic happen. I&apos;m mostly
             passionate about early-stage startups willing to take the leap to
             aim for the stars!<br />
             <br />

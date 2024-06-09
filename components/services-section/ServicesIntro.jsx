@@ -9,7 +9,7 @@ const ServicesIntro = () => {
         <p className="mb-6 text-lg leading-[140%] para-typo">
           As a Fractional CTO, I work ‘in-house’ as part of the
           Exec. leadership team. This means that I have an email, a
-          title, access and availability on all your systems' access
+          title, access and availability on all your systems&apos; access
           including Slack, Zoom or even Teams! Any intellectual property
           created during our engagement is fully owned by your business. By
           working as a member of your team, I ensure that tech. strategies are

@@ -27,9 +27,9 @@ const ServicesApproach = () => {
               ( where classical and quantum technology worlds collide )
           <br/><br/>
           This workshop is designed to assess your current tech. stack and 
-          activities and craft a roadmap to elevate your company's SLAs with
+          activities and craft a roadmap to elevate your company&apos;s SLAs with
           your clients. Conducted over a full day, it can be facilitated remotely
-          or in-person. It's an amazing opportunity for us to test our partnership’s
+          or in-person. It&apos;s an amazing opportunity for us to test our partnership’s
           fit and build the foundations of working together. A typical agenda might
           encompass:
         </p>

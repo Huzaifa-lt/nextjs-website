@@ -11,12 +11,12 @@ const AboutDetail = () => {
           from a neighbour who wrote the frog-crossing game in Basic. We are in
           early 90s here! Among other inspiration was another neighbour who was
           trying out the Wolfram AI chat system, and I was blown over by outstanding
-          conversation between a "chatbot" and a user. Suffice to say that the AI
+          conversation between a &quot;chatbot&quot; and a user. Suffice to say that the AI
           systems have been a stepping stone in developing what and how I have
           accomplished so far. Surprising how we are still in the midst of another
           renaissance with AI. Great thing is that I have years of experience in
           connection with top consulting and big-data analytics including solid
-          expertise in ML/AI and related systems' design and implementation.
+          expertise in ML/AI and related systems&apos; design and implementation.
           <br />
           <br />
           While topping the MATHs. education system for multiple years until I
@@ -34,18 +34,18 @@ const AboutDetail = () => {
 
         <p className="">
           Next up was another life-changing event in reaching Sydney, Australia as
-          a Master's level student at University of New South Wales ( recognized 
-          highly in World's university ranking ). Long story short, I ended up as
+          a Master&apos;s level student at University of New South Wales ( recognized 
+          highly in World&apos;s university ranking ). Long story short, I ended up as
           a software engineer at Visionbytes ( owners wanted to launch a product 
           within the company that would have brought a Youtube-like system for at-
           least the Australian market ). After the GFC in 2008 though, I diverted
-          my attention to yet another round of running my own "cloud" company. You
+          my attention to yet another round of running my own &quot;cloud&quot; company. You
           could search the archives of Australian company register and will find my
           company as the first IT company providing cloud consulting company before
           that name became a household attention. 
           <br />
           <br />
-          Finally I "started" my career in the world of Search Engine Marketing with
+          Finally I &quot;started&quot; my career in the world of Search Engine Marketing with
           a Silicon Valley based company called Marin Software. The exposure and the
           value that it brought me was some of the highest I had seen to date. With
           day-in-day-out consulting with the clients, I realized how immensely valuable
