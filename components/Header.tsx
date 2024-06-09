@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className="bg-[rgba(0, 0, 0, 0)] opacity-100 fixed w-full backdrop:blur-[32px]">
       <nav
-        className="container py-5 bg-[#ddd] bg-[rgba(0, 0, 0, 0)] relative flex justify-between items-center md:mx-auto"
+        className="container bg-[#ddd] bg-[rgba(0, 0, 0, 0)] relative flex justify-between items-center md:mx-auto"
         style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
       >
           {showNavbar &&  <div  className={`transition-transform transform ${
@@ -23,26 +23,27 @@ const Header = () => {
           <Link
             href="/"
             aria-current="page"
-            className="py-5 text-[#000] text-2xl uppercase"
+            className="text-[#000] text-2xl uppercase"
+            onClick={handleClick}
           >
            Home
           </Link>
-          <Link href="/about" className="py-5 text-[#000] text-2xl uppercase">
+          <Link href="/about" className="text-[#000] text-2xl uppercase" onClick={handleClick}>
            About
           </Link>
-          <Link href="/services" className="py-5 text-[#000] text-2xl uppercase">
+          <Link href="/services" className="text-[#000] text-2xl uppercase" onClick={handleClick}>
             Services
           </Link>
-          <Link href="/resources" className="py-5 text-[#000] text-2xl uppercase">
+          <Link href="/resources" className="text-[#000] text-2xl uppercase" onClick={handleClick}>
             Resources
           </Link>
-          <Link href="/contact" className="py-5 text-[#000] text-2xl uppercase">
+          <Link href="/contact" className="text-[#000] text-2xl uppercase" onClick={handleClick}>
             Contact
           </Link>
         </div> }
         <Link href="/" className="md:hidden">
           <Image
-            src="https://d12852wca2dyvw.cloudfront.net/FractionalQE.svg"
+            src="https://d12852wca2dyvw.cloudfront.net/QE-Clear.png"
             loading="lazy"
             alt=""
             width={130}
@@ -71,7 +72,7 @@ const Header = () => {
         </div>
         <Link href="/" className="hidden md:block">
           <Image
-            src="https://d12852wca2dyvw.cloudfront.net/FractionalQE.svg"
+            src="https://d12852wca2dyvw.cloudfront.net/QE-Clear.png"
             loading="lazy"
             alt=""
             width={130}
