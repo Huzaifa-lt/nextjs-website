@@ -19,7 +19,7 @@ const ServicesIntro = () => {
       </div>
       <div className="img-wrapper">
         <Image
-          src="https://d12852wca2dyvw.cloudfront.net/QE-Service1.avif"
+          src="/QE-Service1.avif"
           alt=""
           width={500}
           height={500}

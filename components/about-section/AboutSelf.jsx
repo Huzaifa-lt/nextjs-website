@@ -31,7 +31,7 @@ const AboutSelf = () => {
 
         <Image
           className="rounded-full"
-          src="https://d12852wca2dyvw.cloudfront.net/AboutMe.jpeg"
+          src="/AboutMe.jpeg"
           width={400}
           height={400}
           alt=""

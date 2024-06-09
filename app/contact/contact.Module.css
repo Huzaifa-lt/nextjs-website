@@ -1,6 +1,6 @@
 .contact-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0), #111),
-    url("https://d12852wca2dyvw.cloudfront.net/QuantumEdgeMATHs.png"),
+    url("/QuantumEdgeMATHs.png"),
     linear-gradient(rgba(0, 145, 255, 0.15), rgba(255, 255, 255, 0));
   background-position: 0 0, 50% 0, 0 0;
   background-repeat: repeat, repeat, repeat;

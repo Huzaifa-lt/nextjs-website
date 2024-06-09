@@ -42,7 +42,7 @@ ul{
   .hero-section{
     background-color: rgba(0, 0, 0, 0);
     background-image: linear-gradient(rgba(0, 0, 0, 0), #111),
-      url("https://d12852wca2dyvw.cloudfront.net/QuantumEdgeMATHs.png");
+      url("/QuantumEdgeMATHs.png");
     background-position: 0 0, 50% 100%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;

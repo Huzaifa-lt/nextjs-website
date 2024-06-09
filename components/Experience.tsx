@@ -6,7 +6,7 @@ const Experience = () => {
     <section className="mb-10 background-img py-[60px] px-4 md:py-24 md:px-[30px]  ">
       <div className="container md:mx-auto lg:flex justify-between items-center">
         <Image
-          src="https://d12852wca2dyvw.cloudfront.net/Experience.jpg"
+          src="/Experience.jpg"
           loading="lazy"
         
           data-w-id="7e3faa96-da47-390e-c796-50a8a5359d08"

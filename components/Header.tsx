@@ -43,7 +43,7 @@ const Header = () => {
         </div> }
         <Link href="/" className="md:hidden">
           <Image
-            src="https://d12852wca2dyvw.cloudfront.net/QE-Clear.png"
+            src="/QE-Clear.png"
             loading="lazy"
             alt=""
             width={130}
@@ -72,7 +72,7 @@ const Header = () => {
         </div>
         <Link href="/" className="hidden md:block">
           <Image
-            src="https://d12852wca2dyvw.cloudfront.net/QE-Clear.png"
+            src="/QE-Clear.png"
             loading="lazy"
             alt=""
             width={130}
@@ -116,7 +116,7 @@ const Header = () => {
           </Link>
         </div>
         <Image
-          src="https://d12852wca2dyvw.cloudfront.net/menu.svg"
+          src="/menu.svg"
           loading="lazy"
           alt=""
           width={40}

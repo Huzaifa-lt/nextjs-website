@@ -19,7 +19,7 @@ const Expertise = () => {
         </div>
 
         <Image
-          src="https://d12852wca2dyvw.cloudfront.net/Expertise.jpg"
+          src="/Expertise.jpg"
           loading="lazy"
           data-w-id="7e3faa96-da47-390e-c796-50a8a5359d08"
           alt=""

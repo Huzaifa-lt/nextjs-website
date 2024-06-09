@@ -8,21 +8,21 @@ const CardWrapper = () => {
       <div className="container card-wrapper md:mx-auto">
         <Link href="">
           <ResourcesCard
-            imageSrc="https://d12852wca2dyvw.cloudfront.net/QE-Resource1.jpeg"
+            imageSrc="/QE-Resource1.jpeg"
             title="Scalability, Sustainability and Survivability: where Quantum will hold its Edge"
             detail=""
           />
         </Link>
         <Link href="">
           <ResourcesCard
-            imageSrc="https://d12852wca2dyvw.cloudfront.net/QE-Resource2.jpeg"
+            imageSrc="/QE-Resource2.jpeg"
             title="Web3.0 is making a come-back at the speed of Light"
             detail=""
           />
         </Link>
         <Link href="">
           <ResourcesCard
-            imageSrc="https://d12852wca2dyvw.cloudfront.net/QE-Resource3.jpeg"
+            imageSrc="/QE-Resource3.jpeg"
             title="AI rules the Tech World"
             detail=""
           />

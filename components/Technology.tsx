@@ -18,7 +18,7 @@ const Sales = () => {
         </div>
 
         <Image
-          src="https://d12852wca2dyvw.cloudfront.net/CTO.jpg"
+          src="/CTO.jpg"
           loading="lazy"
           alt=""
           width={500}

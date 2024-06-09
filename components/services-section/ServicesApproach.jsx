@@ -7,7 +7,7 @@ const ServicesApproach = () => {
       <div className="container section-wrapper md:mx-auto img-wrapper flex flex-col justify-start items-start gap-2 md:gap-4">
         <h2>Approach</h2>
         <Image
-          src="https://d12852wca2dyvw.cloudfront.net/QE-Banner.gif"
+          src="/QE-Banner.gif"
           alt=""
           width={500}
           height={500}

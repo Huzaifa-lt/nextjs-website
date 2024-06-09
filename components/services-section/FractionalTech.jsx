@@ -7,7 +7,7 @@ const FractionalTechnology= () => {
       <div className="container section-wrapper md:mx-auto">
         <div className="mb-10 img-wrapper">
           <Image
-            src="https://d12852wca2dyvw.cloudfront.net/QE-Service2.avif"
+            src="/QE-Service2.avif"
             alt=""
             width={500}
             height={500}
