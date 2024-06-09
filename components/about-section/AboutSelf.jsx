@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -28,14 +27,6 @@ const AboutSelf = () => {
             </button>
           </Link>
         </div>
-
-        <Image
-          className="rounded-full"
-          src="/AboutMe.jpeg"
-          width={400}
-          height={400}
-          alt=""
-        />
       </div>
     </section>
   );

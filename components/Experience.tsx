@@ -3,8 +3,8 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <section className="mb-10 background-img py-[60px] px-4 md:py-24 md:px-[30px]  ">
-      <div className="container md:mx-auto lg:flex justify-between items-center">
+    <section className="mb-10 background-img py-[60px] px-4 md:py-24 md:px-[30px]">
+      <div className="container md:mx-auto md:flex justify-between items-center">
         <Image
           src="/Experience.jpg"
           loading="lazy"
@@ -14,13 +14,12 @@ const Experience = () => {
           width={400}
           height={400}
         />
-
-        <div className="mt-10 md:max-w-[48%] flex flex-col justify-items-start items-start md:gap-9 md:mt-0">
-          <span className="text-[#EC8B5D] text-center font-bold uppercase px-6 py-3 text-lg leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%] ">
+        <div className="md:max-w-[50%] flex flex-col items-start justify-start md:gap-9">
+          <span className="text-[#EC8B5D]  uppercase px-6 py-3 text-lg font-bold leading-[140%] rounded-[8px] bg-[rgba(255,255,255,.04)] md:text-2xl md:leading-[140%]  ">
             Experience
           </span>
 
-          <p className="mt-8 mb-10 para-typography md:text-2xl md:leading-[140%] md:mt-0 md:mb-6">
+          <p className="mt-8 mb-10 para-typography md:mt-0 md:mb-6">
             With more than a decade of working with $1B worth companies, I&apos;ve
             honed developing products and services across Australia, APAC and
             the US. From a simple integration of two realtime SaaS systems to

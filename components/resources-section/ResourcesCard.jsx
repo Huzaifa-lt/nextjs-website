@@ -7,6 +7,7 @@ const ResourcesCard = ({ imageSrc, title, detail }) => {
       <div className="">
         <Image
           src={imageSrc}
+          loading="lazy"
           className=""
           alt="title"
           width={380}

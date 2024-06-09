@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="54px" viewBox="0 0 130 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>FractionalQE</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Anton-Regular, Anton" font-weight="normal">
+        <g id="Artboard-QE" transform="translate(-138, -148)">
+            <g id="FractionalQE" transform="translate(138, 148.0955)">
+                <text id="QUANTUM-EDGE" font-size="22.8605044">
+                    <tspan x="0" y="27" fill="#FFFFFF">QUANTUM </tspan>
+                    <tspan x="86.8766142" y="27" fill="#EC6A2C">EDGE</tspan>
+                </text>
+                <text id="FRACTIONAL-CTO" font-size="20.574454">
+                    <tspan x="3.14285714" y="48.6761237" fill="#EC8B5D">FRACTIONAL</tspan>
+                    <tspan x="92.1112968" y="48.6761237" fill="#FFFFFF"> CTO</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

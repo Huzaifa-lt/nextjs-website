@@ -8,6 +8,7 @@ const FractionalTechnology= () => {
         <div className="mb-10 img-wrapper">
           <Image
             src="/QE-Service2.avif"
+            loading="lazy"
             alt=""
             width={500}
             height={500}

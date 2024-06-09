@@ -8,6 +8,7 @@ const ServicesApproach = () => {
         <h2>Approach</h2>
         <Image
           src="/QE-Banner.gif"
+          loading="lazy"
           alt=""
           width={500}
           height={500}

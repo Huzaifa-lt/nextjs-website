@@ -20,6 +20,7 @@ const ServicesIntro = () => {
       <div className="img-wrapper">
         <Image
           src="/QE-Service1.avif"
+          loading="lazy"
           alt=""
           width={500}
           height={500}
